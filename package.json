@@ -3,10 +3,14 @@
     "version": "1.0.0",
     "description": "MARA Holdings Stats Website",
     "scripts": {
-      "start": "vercel dev"
+        "start": "vercel dev"
     },
     "dependencies": {
-      "cheerio": "^1.0.0",
-      "node-fetch": "^2.6.12"
-    }
-  }
+        "cheerio": "^1.0.0",
+        "node-fetch": "^2.7.0"
+    },
+    "main": "scripts.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
