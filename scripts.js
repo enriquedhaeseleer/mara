@@ -224,7 +224,7 @@ async function fetchStockPrice() {
         return;
     }
     try {
-        const apiKey = 'YOUR_ALPHA_VANTAGE_API_KEY';
+        const apiKey = 'VD5Y4LBJJWS15MBT';
         const response = await fetch(`https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=MARA&apikey=${apiKey}`);
         const data = await response.json();
         const price = `$${parseFloat(data['Global Quote']['05. price']).toFixed(2)}`;
@@ -264,7 +264,7 @@ async function fetchNews() {
 async function fetchStockHistory() {
     if (!document.getElementById('stockChart')) return;
     try {
-        const apiKey = 'YOUR_ALPHA_VANTAGE_API_KEY';
+        const apiKey = 'VD5Y4LBJJWS15MBT';
         const response = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MARA&apikey=${apiKey}`);
         const data = await response.json();
         const dates = Object.keys(data['Time Series (Daily)']).slice(0, 30).reverse();
