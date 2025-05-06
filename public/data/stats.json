@@ -1,0 +1,28 @@
+{
+    "btcHoldings": 48237,
+    "btcValue": "Loading USD value...",
+    "marketCap": "$5.01B",
+    "hashRate": 57.3,
+    "mnavRatio": 1.09,
+    "shortVolume": 1200000,
+    "blocks24h": 12.7,
+    "earningsPrediction": {
+        "revenue": 224.85,
+        "eps": 0.29
+    },
+    "monthlyStats": [
+        { "month": "Jan 2025", "btcMined": 907, "blocksWon": 249, "hashRate": 53.2, "energyCost": 29000 },
+        { "month": "Feb 2025", "btcMined": 706, "blocksWon": 206, "hashRate": 54.0, "energyCost": 28500 },
+        { "month": "Mar 2025", "btcMined": 829, "blocksWon": 242, "hashRate": 54.3, "energyCost": 28200 },
+        { "month": "Apr 2025", "btcMined": 705, "blocksWon": 206, "hashRate": 57.3, "energyCost": 28000 },
+        { "month": "May 2025", "btcMined": 700, "blocksWon": 381, "hashRate": 57.3, "energyCost": 28000 }
+    ],
+    "financials": {
+        "revenue": "$214.4M",
+        "ebitda": "$794.4M",
+        "netIncome": "$528.3M",
+        "shares": "351.93M",
+        "debt": "$331M"
+    },
+    "shortVolumeHistory": [1500000, 1300000, 1400000, 1200000, 1200000]
+}

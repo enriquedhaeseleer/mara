@@ -1,0 +1,15 @@
+{
+    "name": "MARA Stats",
+    "short_name": "MARA Stats",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1a1a1a",
+    "theme_color": "#f7931a",
+    "icons": [
+        {
+            "src": "https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/language/wght400grad0opsz48/1x/language_wght400grad0opsz48_black.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ]
+}
